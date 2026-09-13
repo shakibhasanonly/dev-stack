@@ -105,7 +105,7 @@ const Navbar = () => {
 
             <button
               type="button"
-              className="rounded-full bg-gradient-to-r from-orange-500 via-pink-500 to-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition duration-200 hover:scale-105 hover:opacity-90 sm:px-5"
+              className="rounded-full bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition duration-200 hover:scale-105 hover:opacity-90 sm:px-5"
             >
               Sign Up
             </button>
