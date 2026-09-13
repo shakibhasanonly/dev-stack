@@ -73,7 +73,7 @@ const TechnologySection = () => {
   return (
     <section
       id="technologies"
-      className="bg-slate-50 px-5 py-16 sm:px-6 lg:px-8 lg:py-20"
+      className="bg-white px-5 py-16 sm:px-6 lg:px-8 lg:py-20"
     >
       <div className="mx-auto max-w-7xl">
         {/* Section Heading */}
