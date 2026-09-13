@@ -78,15 +78,17 @@ const TechnologySection = () => {
       <div className="mx-auto max-w-7xl">
         {/* Section Heading */}
         <div className="mb-10">
-          <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">
-            Technologies
-          </h2>
+       <h2 className="text-3xl font-extrabold leading-tight text-slate-900 sm:text-4xl">
+       Explore the{" "}
+        <span className="bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
+         Technologies
+        </span>
+       </h2>
 
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500 sm:text-base">
-            Explore popular technologies and build your ideal development
-            stack.
-          </p>
-        </div>
+      <p className="mt-2 text-sm text-slate-500">
+       Pick one technology per category to build your ideal stack.
+      </p>
+      </div>
 
         {/* Main Layout */}
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
@@ -188,7 +190,7 @@ const TechnologySection = () => {
                 <button
                   type="button"
                   onClick={handleRemoveAll}
-                  className="mt-2 w-full rounded-md border border-slate-200 px-4 py-2.5 text-xs font-medium text-slate-600 transition hover:bg-slate-50"
+                  className="mt-2 w-full rounded-md border border-red-200 bg-white px-4 py-2.5 text-xs font-medium text-red-500 shadow-sm transition hover:bg-red-50"
                 >
                   Remove All
                 </button>
