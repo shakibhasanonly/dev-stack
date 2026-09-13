@@ -1,16 +1,39 @@
-# React + Vite
+# Dev Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dev Stack helps developers explore technologies and build their ideal development stack.
 
-Currently, two official plugins are available:
+# Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- TypeScript
+- Tailwind CSS
+- React-Toastify
+- Vite
+- JSON
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Explore Technologies** — Explore technologies with details, ratings, and difficulty levels.
+- **Build Your Stack** — Add and remove technologies from your personal stack.
+- **Responsive Design** — Works smoothly on desktop, tablet, and mobile.
 
-## Expanding the ESLint configuration
+### 1.
+JSX lets us write HTML-like code in JavaScript for React UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2.
+Props are passed from parent to child. State is managed inside a component.
+
+### 3.
+It manages changing data. I used it for technologies, stack, and loading.
+
+### 4. 
+It handles side effects. I used it to load JSON data.
+
+### 5. 
+A unique `key` helps React identify list items.
+
+### 6. 
+It shows UI based on a condition. I used it for the empty stack message.
+
+### 7.
+Parent sends data through props. Child communicates back using a callback function.
