@@ -8,7 +8,7 @@ const Hero = () => {
 
           {/* Left Content */}
           <div className="text-center md:text-left">
-            <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+            <h1 className="font-['Inter'] text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
               Build Your Ideal
               <span className="block bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
                 Development Stack

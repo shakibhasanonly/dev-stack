@@ -78,7 +78,7 @@ const TechnologySection = () => {
       <div className="mx-auto max-w-7xl">
         {/* Section Heading */}
         <div className="mb-10">
-       <h2 className="text-3xl font-extrabold leading-tight text-slate-900 sm:text-4xl">
+       <h2 className="font-['Inter'] text-3xl font-extrabold leading-tight text-slate-900 sm:text-4xl">
        Explore the{" "}
         <span className="bg-linear-to-r from-orange-500 via-pink-500 to-violet-600 bg-clip-text text-transparent">
          Technologies
